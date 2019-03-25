@@ -15,20 +15,17 @@ class Ping
      */
     private $urlEntity;
 
-    private $options;
     /**
      * @var PingService
      */
     private $pingService;
 
-    public function __construct($url = '', array $options = [])
+    public function __construct($url = '')
     {
         $this->createUrlEntity();
         if ($url !== '' && filter_var($url, FILTER_VALIDATE_URL)) {
             $this->urlEntity->addUrl($url);
         }
-
-        $this->options = $options;
         $this->pingService = new PingService();
     }
 

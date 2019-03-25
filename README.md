@@ -7,10 +7,8 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Walter Wiesnekker``` ```Zwarthoorn``` ```https://github.com/Zwarthoorn``` ```walterwiesnekkercontact@gmail.com``` ```Zwarthoorn``` ```Ping``` ```a easy package to ping your websites``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This is a small package to ping your website. The exact working of this package is below.
+I sure hope you can find a use for this package and you can manage the websites you want to know are still alive
 
 ## Structure
 
@@ -30,15 +28,18 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require Zwarthoorn/Ping
+$ composer require zwarthoorn/ping
 ```
 
 ## Usage
+**single ping**
+There are a few different ways to do this. first the normal way
 
 ``` php
-$skeleton = new Zwarthoorn\Ping();
-echo $skeleton->echoPhrase('Hello, League!');
+$ping = new Zwarthoorn\Ping($url);
+echo $ping->ping();
 ```
+This first 
 
 ## Change log
 
@@ -68,13 +69,13 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/Zwarthoorn/Ping.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Zwarthoorn/Ping/master.svg?style=flat-square
+[ico-travis]: https://scrutinizer-ci.com/g/zwarthoorn/ping/badges/build.png?b=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Zwarthoorn/Ping.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/Zwarthoorn/Ping.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/Zwarthoorn/Ping.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/zwarthoorn/ping
-[link-travis]: https://travis-ci.org/zwarthoorn/ping
+[link-travis]: https://scrutinizer-ci.com/g/zwarthoorn/ping/badges/build.png?b=master
 [link-scrutinizer]: https://scrutinizer-ci.com/g/zwarthoorn/ping/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/zwarthoorn/ping
 [link-downloads]: https://packagist.org/packages/zwarthoorn/ping
