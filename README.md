@@ -75,8 +75,8 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [link-packagist]: https://packagist.org/packages/zwarthoorn/ping
 [link-travis]: https://travis-ci.org/zwarthoorn/ping
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Zwarthoorn/Ping/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Zwarthoorn/Ping
+[link-scrutinizer]: https://scrutinizer-ci.com/g/zwarthoorn/ping/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/zwarthoorn/ping
 [link-downloads]: https://packagist.org/packages/zwarthoorn/ping
 [link-author]: https://github.com/Zwarthoorn
 [link-contributors]: ../../contributors
