@@ -1,5 +1,5 @@
 {
-    "name": "Zwarthoorn/Ping",
+    "name": "zwarthoorn/ping",
     "type": "library",
     "description": "a easy package to ping your websites",
     "keywords": [
