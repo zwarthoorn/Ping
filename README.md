@@ -73,10 +73,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/Zwarthoorn/Ping.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/Zwarthoorn/Ping.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/Zwarthoorn/Ping
-[link-travis]: https://travis-ci.org/Zwarthoorn/Ping
+[link-packagist]: https://packagist.org/packages/zwarthoorn/ping
+[link-travis]: https://travis-ci.org/zwarthoorn/ping
 [link-scrutinizer]: https://scrutinizer-ci.com/g/Zwarthoorn/Ping/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/Zwarthoorn/Ping
-[link-downloads]: https://packagist.org/packages/Zwarthoorn/Ping
+[link-downloads]: https://packagist.org/packages/zwarthoorn/ping
 [link-author]: https://github.com/Zwarthoorn
 [link-contributors]: ../../contributors
