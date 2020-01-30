@@ -1,6 +1,5 @@
 # Ping
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
@@ -14,12 +13,9 @@ I sure hope you can find a use for this package and you can manage the websites 
 
 If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
 
-```
-bin/        
-config/
+``` 
 src/
 tests/
-vendor/
 ```
 
 
